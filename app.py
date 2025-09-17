@@ -1,6 +1,6 @@
 from flask import Flask, request, send_file, render_template
 import io
-from int import generate_random_int
+from randomFunction import generate_random_int
 
 app = Flask(__name__)
 
